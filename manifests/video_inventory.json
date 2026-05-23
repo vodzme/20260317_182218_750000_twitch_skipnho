@@ -1,0 +1,73 @@
+{
+    "folder": "20260317_182218_750000_twitch_skipnho",
+    "generated_at": "2026-05-23T03:04:02+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 18596.098333,
+        "size_bytes": 14871476612,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6398,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 115,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 14871476612,
+            "duration_seconds": 18596.098333
+        },
+        "summary": {
+            "descriptors_count": 1,
+            "valid_segments_count": 1,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 136,
+            "file_name": "seg_0001.ts",
+            "relative_path": "2026_03_16_012840818_twitch_skipnho/seg_0001.ts",
+            "absolute_path": "/var/www/html/recorders/2026_03_16_012840818_twitch_skipnho/seg_0001.ts",
+            "size_bytes": 14871476612,
+            "format": "ts",
+            "duration_seconds": 18596.098333,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 18596.098333,
+                    "size": 14871476612
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 1,
+            "video_output_id": 115,
+            "input_signature": "bed2fca548c3d2c7a569b0a4563cbeb23330f66e0bd332a3bb31bbf1a4ead38d"
+        },
+        "validations": {
+            "totals_size_bytes": 14871476612,
+            "totals_duration_seconds": 18596.098333
+        }
+    }
+}
